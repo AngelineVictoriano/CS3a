@@ -1,3 +1,10 @@
+# /*****************************************************/
+# /* CS03A - Summer 2026
+# /* Lab 2
+# /* Student Name: Angeline Victoriano
+# /* SID: 20528831
+## /***************************************************/
+
 def ticket_sales_income(atix, btix, ctix):
     income = 20*atix+ 15*btix + 10*ctix
     return income
