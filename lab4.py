@@ -34,6 +34,7 @@ main()
 #DATE PRINTER
 
 print("\n\n\n\n")
+
 date_entered = input('Enter the date in the format "mm/dd/yyyy": ')
 
 months = ["January", "February", "March", "April",
