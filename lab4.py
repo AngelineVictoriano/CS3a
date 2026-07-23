@@ -35,7 +35,14 @@ main()
 
 print("\n\n\n\n")
 
-date_entered = input('Enter the date in the format "mm/dd/yyyy": ')
+correct_format = False
+while not correct_format:
+    date_entered = input('Enter the date in the format "mm/dd/yyyy": ')
+    if len(date_entered) != 10:
+        print("Wrong format entered, try again.")
+        correct_format = False
+    else:
+        correct_format = True
 
 months = ["January", "February", "March", "April",
           "May", "June", "July", "August",
